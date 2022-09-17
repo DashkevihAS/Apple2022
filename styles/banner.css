@@ -34,6 +34,13 @@
   padding: 16px 20px;
   font-size: 14px;
   line-height: 100%;
+  transition: all .4s ease-in-out;
+}
+
+.banner__button:hover {
+  background: #2238FF;
+  color: #fff;
+
 }
 
 @media (min-width: 768px) {

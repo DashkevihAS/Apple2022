@@ -5,6 +5,11 @@
 .country__btn {
   position: relative;
   padding-right: 13px;
+  transition: all .2s ease-in-out;
+}
+
+.country__btn:hover {
+  color: #A3B6C7
 }
 
 .country__btn::after {
@@ -51,6 +56,11 @@
 .country__choise {
   font-size: 14px;
   font-weight: 300;
+  transition: all .1s ease-in-out;
+}
+
+.country__choise:hover {
+  color: #2238FF;
 }
 
 .country__scrollbar {

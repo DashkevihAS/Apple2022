@@ -3,6 +3,14 @@
   gap: 20px 50px;
 }
 
+.navigation__item {
+  transition: all .2s ease-in-out;
+}
+
+.navigation__item:hover {
+  color: #A3B6C7
+}
+
 .navigation__list_column-mob {
   flex-direction: column;
 }

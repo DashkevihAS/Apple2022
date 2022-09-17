@@ -32,6 +32,12 @@
   line-height: 100%;
   color: #2238FF;
   padding-right: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.product__more:hover {
+  transform: translate(3%, 3%);
+  color: #0017E6;
 }
 
 .product__more:after {
